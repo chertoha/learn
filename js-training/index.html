@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/stylesheet" href="./css/styles.css" />
+
+    <style>
+      .bar {
+        color: green;
+      }
+
+      .foo {
+        color: red;
+      }
+      body {
+        background-color: darkblue;
+      }
+
+      .main-card {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 400px;
+        background-color: tomato;
+      }
+
+      .main-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 200px;
+        height: 400px;
+        background-color: blue;
+        transform: rotate(45deg);
+      }
+
+      .main-card::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+        width: 200px;
+        height: 400px;
+        background-color: blueviolet;
+        /* transform-origin: 20px 50px; */
+        transform: rotate(-45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe
+          class="gmap_iframe"
+          width="100%"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=dubai&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        >
+        </iframe>
+        <a href="https://gachanox.io/">Gacha Nox</a>
+      </div>
+      <style>
+        .mapouter {
+          position: relative;
+          text-align: right;
+          width: 100%;
+          height: 400px;
+        }
+        .gmap_canvas {
+          overflow: hidden;
+          background: none !important;
+          width: 100%;
+          height: 400px;
+        }
+        .gmap_iframe {
+          height: 400px !important;
+        }
+
+        
+      </style>
+    </div> -->
+
+    <div class="main-card"></div>
+
+    ​
+    <!-- <ul>
+      <li><a href="./links/svg.html">svg</a></li>
+      <li><a href="./links/transform.html">transform</a></li>
+      <li><a href="./links/transition.html">transition</a></li>
+    </ul> -->
+
+    <!-- <div class="foo bar">Test classes foo bar</div> -->
+    TEST ​
+
+    <!-- <script src="./js/arrays.js" type="module"></script> -->
+    <!-- <script src="./js/strings.js" type="module"></script> -->
+    <script src="./js/objects.js" type="module"></script>
+    <!-- <script src="./js/collections.js" type="module"></script> -->
+    <!-- <script src="./js/codewars.js" type="module"></script> -->
+    <!-- <script src="./js/callback.js" type="module"></script> -->
+    <!-- <script src="./js/prototype.js" type="module"></script> -->
+    <!-- <script src="./js/script.js" type="module"></script> -->
+    <!-- <script src="./js/crud.js" type="module"></script> -->
+    <!-- <script src="./js/promises.js" type="module"></script> -->
+    <!-- <script src="./js/scope.js" type="module"></script> -->
+    <!-- <script src="./js/jsCampTechstack.js" type="module"></script> -->
+  </body>
+</html>
