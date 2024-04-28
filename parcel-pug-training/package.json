@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "name": "parcel-pug-training",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "sass": "^1.62.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/*.pug --open --port 8001",
+    "build": "parcel build src/*.pug --public-url /parcel-pug-training/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chertoha/parcel-pug-training.git"
+  },
+  "keywords": [],
+  "author": "Anton Chertok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chertoha/parcel-pug-training/issues"
+  },
+  "homepage": "https://chertoha.github.io/parcel-pug-training",
+  "description": ""
+}

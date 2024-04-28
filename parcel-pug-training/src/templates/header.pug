@@ -1,0 +1,9 @@
+block vars 
+    - var list = [{name: 'index', href:'/index.pug'}, {name: 'portfolio', href:'/portfolio.pug'}];
+
+header.header 
+    | HEADER!!
+    ul 
+        each item in list
+            li  
+                a(href=item.href) #{item.name}
